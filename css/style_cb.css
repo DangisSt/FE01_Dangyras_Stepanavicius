@@ -1,0 +1,150 @@
+* {
+    box-sizing: content-box;
+}
+
+html, body, ul {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+/* ---------------------
+          Typo 
+ ---------------------*/
+h1 {
+    font: 300 70px/78px "Roboto";
+    color: #2B2B2B;
+    margin-bottom: 72px;
+    max-width: 700px;
+}
+
+h1:after {
+    background: #E6324B;
+    content: '';
+    display: block;
+    height: 6px;
+    margin-top: 24px;
+}
+
+p {
+    font: 500 20px/36px "Libre Baskerville";
+    color: #353634;
+}
+
+a {
+    color: #E6324B;
+    font-style: italic;
+}
+
+a:hover {
+    color: #353634;
+}
+
+/* ---------------------
+       Navigation 
+ ---------------------*/
+.header {
+    background: #E6324B;
+}
+
+nav {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    font: 900 15px "Roboto";
+    color: #fff;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+/* ---------------------
+        Content 
+ ---------------------*/
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+
+/* Button */
+.btn {
+    font: 900 15px "Roboto";
+    padding: 8px 45px;
+    cursor: pointer;
+    border: none;
+    background: #353634;
+    color: #fff;
+    float: right;
+    border: #353634 1px solid;
+}
+
+.btn:hover {
+    background: #E6324B;
+    border: #353634 1px solid;
+}
+
+.content_wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 80px;
+}
+
+main {
+    flex-grow: 1;
+    padding: 0 15px;
+}
+
+aside {
+    flex-basis: 370px;
+    padding: 24px 15px;
+}
+
+hr {
+    margin: 30px 0;
+}
+
+.author_aside {
+    padding: 45px;
+}
+
+.author_aside img {
+    border-radius: 100%;
+    display: block;
+    width: 100%;
+}
+
+/* ---------------------
+         Footer 
+ ---------------------*/
+ .footer {
+    max-width: 100%;
+    padding: 25px 50px 80px 50px;
+    background: #2B2B2B;
+}
+
+.footer h2 {
+    color: #E6324B;
+}
+
+ .footer ul{
+     list-style: none;
+ }
+
+ .footer li{
+    display: inline-block;
+}
+
+.footer a {
+    font: 900 15px "Roboto";
+    color: #fff;
+    padding: 5px 5px;
+    text-decoration: none;
+}
